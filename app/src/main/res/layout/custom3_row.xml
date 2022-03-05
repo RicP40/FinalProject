@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_friend"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:id="@+id/txtId"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="12dp"
+            android:text="User ID" />
+
+        <TextView
+            android:id="@+id/txtBranchName"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="11dp"
+            android:layout_toEndOf="@+id/txtId"
+            android:text="BranchName" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toEndOf="@+id/txtBranchName"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toEndOf="@+id/txtAddress"
+            android:text="City" />
+
+        <TextView
+            android:id="@+id/txtState"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toEndOf="@+id/txtCity"
+            android:text="State" />
+
+        <TextView
+            android:id="@+id/txtZip"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toEndOf="@+id/txtState"
+            android:text="Zip" />
+
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toEndOf="@+id/Zip"
+            android:text="Phone" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
